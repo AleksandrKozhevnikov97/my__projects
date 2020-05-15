@@ -1,0 +1,36 @@
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes prizeup {
+    from {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-20%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes bootsmove {
+    from {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(-20%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
