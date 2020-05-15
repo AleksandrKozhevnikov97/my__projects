@@ -1,0 +1,59 @@
+.button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 39px;
+    width: 230px;
+    height: 57px;
+    background-color: $main-color;
+    border-style: none;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#fff;
+    cursor: pointer;
+    &_header {
+        margin-top: 21px;
+        width: 160px;
+        height: 45px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    &_prices {
+        margin-top: 25px;
+        width: 160px;
+        height: 45px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    &_consultation {
+        width: 180px;
+        height: 45px;
+        font-size: 12px;
+        font-weight: 400;
+        position: absolute;
+        transform: translate(366px, -15px);
+    }
+    &_questions {
+        width: 180px;
+        height: 45px;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 9px;
+    }
+    &_footer {
+        margin-left: 19px;
+        margin-right: 0;
+        margin-top: 9px;
+        width: 160px;
+        height: 45px;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22.04px;
+        text-transform: uppercase;
+    }
+    &_promo {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,103 @@
+.promo {
+    padding: 23px 0 82px 0;
+    height: 590px;
+    background: url("../../image/header/bg.jpg") center (center/cover) no-repeat;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    &__menu {
+        margin-top: 37px;
+        margin-left: 55px;
+        width: 600px;
+        margin-right: 42px;
+    }
+    &__link {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 400;
+        text-decoration: none;
+        margin-right: 13px;
+        margin-left: 13px;
+        &:hover {
+            color: $main-color;
+            text-decoration: underline;
+        }
+    }
+    &__phone {
+        width: 161px;
+        height: 19px;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 700;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &__questions {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__contacts {
+        margin-top: 21px;
+        margin-right: 19px;
+    }
+
+
+}
+.main {
+    &__subheaderup {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+    }
+    &__header {
+        margin-top: 16px;
+        margin-bottom: 0;
+        color: $main-color;
+        font-size: 72px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__subheaderdown {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;   
+    }
+    &__delimeter {
+        display: block;
+        margin: 0 auto;
+        margin-top: 38px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 35px;
+    }
+    &__icons {
+        text-align: center;
+    }
+    &__icon {
+        width: 64px;
+        height: 48px;
+    }
+    &__descr {
+        margin-top: 19px;
+        width: 262px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+

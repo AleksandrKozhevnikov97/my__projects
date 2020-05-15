@@ -1,0 +1,64 @@
+.consultation-form {
+    margin-top: 36px;
+    position: absolute;
+    transform: translate(115px,-135px);
+    input {
+        padding: 0 0 0 30px;
+        margin-right: 5px;
+        width: 269px;
+        height: 46px;
+        border: 1px solid #c9c9c9;
+        border-radius: 35px;
+        text-align: left;
+        font-weight: 300;
+        outline: none;
+    }
+    .error {
+        border: 1px solid $main-color;
+    }
+    label.error{
+        width: fit-content;
+        position: absolute;
+        transform: translate(-275px, 50px);
+        color: $main-color;
+        border: none;
+        text-align: center;
+        font-weight: 300;
+        font-size: 14px;
+    }
+}
+.questions__form {
+    margin-top: 18px;
+    padding-left: 27px;
+    min-height: 100px;
+    input {
+        padding-left: 27px;
+        width: 250px;
+        height: 45px;
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        background-color: #ffffff;
+        border-radius: 40px;
+        outline: none;
+    }
+    .message {
+        margin-top: 18px;
+        width: 813px;
+        height: 71px;
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        background-color: #ffffff;
+        border-radius: 8px;
+    }
+    .error {
+        border: 1px solid $main-color;
+    }
+    label.error{
+        width: fit-content;
+        position: absolute;
+        transform: translate(-255px, 50px);
+        color: #25333c;
+        border: none;
+        text-align: center;
+        font-weight: 300;
+        font-size: 14px;
+    }
+}

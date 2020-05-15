@@ -1,0 +1,42 @@
+.consultation {
+    min-height: 347px;
+    padding: 56px 0 58px 0;
+    position: relative;
+    &__title {
+        color: #3a3a3a;
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+    }
+    &__round {
+        position: absolute;
+        transform: translate(519px, -242px);
+        margin-top: 20px;
+        width: 102px;
+        height: 102px;
+        border: 1px solid $main-color;
+        border-radius: 100%;
+    }
+    &__icon {
+        display: block;
+        margin: 0 auto;
+        margin-top: 18px;
+        margin-left: 23px;
+    }
+    &__border {
+        margin-top: 71px;
+    }
+    .error {
+        border: 1px solid $main-color;
+    }
+    label.error{
+        width: fit-content;
+        position: absolute;
+        transform: translate(-275px, 50px);
+        color: $main-color;
+        border: none;
+        text-align: center;
+        font-weight: 300;
+        font-size: 14px;
+    }
+}

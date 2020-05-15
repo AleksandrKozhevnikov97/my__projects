@@ -1,0 +1,65 @@
+.reviews {
+    position: relative;
+    padding: 51px 0 41px 0;
+    height: 380px;
+    &__inner {
+        margin-top: 31px;
+    }
+    &__icon {
+        display: block;
+        margin: 0 auto;
+    }
+    &__subtitle {
+        margin-top: 19px;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__descr {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 610px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        top: 25%;
+        transform: translateY(-50%);
+        left: 440px;
+        background-color: #fff;
+        border: none;
+        z-index: 1;
+    }
+    .slick-next {
+        right: 440px;
+        left: auto;
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        li {
+            list-style-type: circle;
+            position: relative;
+            &:before {
+                content: '';
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                border-radius: 5px;
+                left: -14px;
+                top: 7px;
+            }
+            button {
+                display: none;
+            }
+        }
+        .slick-active {
+            color: $main-color
+        }
+    }
+}

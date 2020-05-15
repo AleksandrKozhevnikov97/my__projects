@@ -1,0 +1,44 @@
+
+
+html {
+    font-family: Roboto, sans-serif;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+// import css files
+@import "../libs/fonts";
+@import "../libs/slick";
+
+
+
+
+//import base
+@import "../base/variables";
+@import "../base/buttons";
+@import "../base/titles";
+@import "../base/divider";
+@import "../base/forms";
+
+
+// import sections
+@import "../blocks/promo";
+@import "../blocks/advantages";
+@import "../blocks/work";
+@import "../blocks/agent";
+@import "../blocks/prices";
+@import "../blocks/consultation";
+@import "../blocks/managers";
+@import "../blocks/scheme";
+@import "../blocks/reviews";
+@import "../blocks/questions";
+@import "../blocks/footer";
+
+// import media
+@import "../base/media"
+
+
+
