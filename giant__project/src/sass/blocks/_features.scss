@@ -1,0 +1,31 @@
+.features {
+    min-height: 410px;
+    &__wrapper {
+        margin-top: 120px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__subtitle {
+        color: #222222;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    &__icons {
+        margin-top: 12px;
+        margin-right: 13px;
+    }   
+    &__descr {
+        max-width: 248px;
+        padding-right: 42px;
+        margin-bottom: 58px;
+        margin-top: 25px;
+        color: #777777;
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
+// padding off for 3 and 6 descr
+.third {
+    padding-right: 0;
+}

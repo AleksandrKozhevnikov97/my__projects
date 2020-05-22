@@ -1,0 +1,71 @@
+@font-face {
+	font-family: 'Roboto';
+	font-display: swap;
+	src: url('../../fonts/Roboto-Light.eot');
+	src: local('Roboto'),
+		url('../../fonts/Roboto-Light.eot') format('embedded-opentype'),
+		url('../../fonts/Roboto-Light.woff') format('woff'),
+		url('../../fonts/Roboto-Light.ttf') format('truetype');
+	font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-display: swap;
+	src: url('../../fonts/Roboto-Regular.eot');
+	src: local('Roboto'),
+		url('../../fonts/Roboto-Regular.eot') format('embedded-opentype'),
+		url('../../fonts/Roboto-Regular.woff') format('woff'),
+		url('../../fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-display: swap;
+	src: url('../../fonts/Roboto-Medium.eot');
+	src: local('Roboto'),
+		url('../../fonts/Roboto-Medium.eot') format('embedded-opentype'),
+		url('../../fonts/Roboto-Medium.woff') format('woff'),
+		url('../../fonts/Roboto-Medium.ttf') format('truetype');
+	font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-display: swap;
+	src: url('../../fonts/Dosis-SemiBold.eot');
+	src: local('Roboto'),
+		url('../../fonts/Dosis-SemiBold.eot') format('embedded-opentype'),
+		url('../../fonts/Dosis-SemiBold.woff') format('woff'),
+		url('../../fonts/Dosis-SemiBold.ttf') format('truetype');
+	font-weight: 700; // in psd project 400
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-display: swap;
+	src: url('../../fonts/Dosis-Medium.eot');
+	src: local('Roboto'),
+		url('../../fonts/Dosis-Medium.eot') format('embedded-opentype'),
+		url('../../fonts/Dosis-Medium.woff') format('woff'),
+		url('../../fonts/Dosis-Medium.ttf') format('truetype');
+	font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-display: swap;
+	src: url('../../fonts/Dosis-Regular.eot');
+	src: local('Roboto'),
+		url('../../fonts/Dosis-Regular.eot') format('embedded-opentype'),
+		url('../../fonts/Dosis-Regular.woff') format('woff'),
+		url('../../fonts/Dosis-Regular.ttf') format('truetype');
+	font-weight: 200; // in psd project value 400
+    font-style: normal;
+}

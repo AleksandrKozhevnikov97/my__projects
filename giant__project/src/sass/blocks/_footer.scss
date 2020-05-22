@@ -1,0 +1,22 @@
+.footer {
+    padding: 63px 0px 53px 0px;
+    min-height: 180px;
+    background-color: #222222;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    &__icons {
+        padding-left: 29px;
+    }
+    &__descr {
+        margin-top: 31px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+.left {
+    padding-left: 0
+}

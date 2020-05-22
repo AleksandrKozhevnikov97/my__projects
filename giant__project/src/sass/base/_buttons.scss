@@ -1,0 +1,24 @@
+.button {
+    width: 153px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: #ffffff;
+    border: none;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    &_promo {
+        width: 192px;
+        height: 40px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        
+    }
+    &_prices {
+        display: block;
+        margin: 0 auto;
+        margin-top: 14px;
+        transition: 0.3s all;
+    }
+}

@@ -1,0 +1,10 @@
+.apps {
+    padding: 120px 0px 120px 0px;
+    min-height: 467px;
+    background: url('../../image/apps/bg.jpg')center (center/cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+}

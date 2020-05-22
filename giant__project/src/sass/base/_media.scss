@@ -1,0 +1,328 @@
+@media (max-width: 1400px) {
+    .features {
+        &__wrapper {
+            margin: 0 auto;
+            margin-top: 120px;
+        }
+    }
+    .right {
+        margin-left: 193px;
+    }
+ }
+ @media (max-width : 1224px) {
+     .title {
+         font-size: 32px;
+     }
+     .header {
+        min-height: 590px;
+     }
+     .promo {
+         margin-top: 0;
+         &__title {
+             font-size: 40px;
+         }
+     }
+     .features {
+         &__wrapper {
+            width: 700px;
+            margin-top: 100px;
+         }
+         &__icons {
+             margin-right: 24px;
+         }
+         &__subtitle {
+             font-size: 21px;
+         }
+     }
+     .right {
+        margin-left: 0;
+    }
+     .reasons {
+        padding: 100px 0 100px 0;
+         &__phone {
+            display: none;
+         }
+         &__wrapper {
+             display: block;
+             margin-top: 100px;
+         }
+         &__text {
+             margin-right: 0px;
+         }
+         &__descr {
+            display: block;
+            margin: 0 auto;
+            margin-top: 33px;
+            text-align: center;
+         }
+         &__shadow {
+             display: none;
+         }
+         &__checks {
+             text-align: center;
+             padding-left: 0;
+             list-style-image: none;
+             margin-left: 0;
+             li {
+                padding-left: 0
+             }
+         }  
+     }
+     .screenshot {
+        padding: 100px 0 100px 0;
+     }
+     .prices {
+        padding: 100px 0 100px 0;
+         &__wrapper {
+             justify-content: center;
+         }
+         &__cards {
+             margin-left: 10px;
+             margin-right: 10px;
+         }
+         &__price {
+             font-size: 30px;
+         }
+     }
+     .reviews {
+        padding: 100px 0px 100px 0px;
+         &__case {
+             display: block;
+             margin: 0 auto;
+         }
+     }
+     .apps {
+        padding: 100px 0 100px 0;
+         &__wrapper {
+             flex-direction: column;
+         }
+         &__links {
+             display: block;
+             margin: 0 auto;
+             text-align: center;
+             img {
+                width: 70%;
+                height: 70%;
+             }
+         }
+     }
+     .title_reasons {
+         text-align: center;
+         font-size: 32px;
+     }
+     .title_prices {
+         font-size: 19px;
+     }
+     .subtitle_reasons {
+         display: block;
+         margin: 0 auto;
+         margin-top: 23px;
+         text-align: center;
+     }
+     
+ }
+ @media (max-width : 768px) {
+     .title {
+         font-size: 26px;
+     }
+     .header {
+        padding: 30px 0 59px 0;
+        background: url(../../image/header/bg_mobile.jpg) center (center/cover) no-repeat;
+         &__link {
+             padding-right: 13px;
+         }
+         &__logo {
+             img {
+                 height: 60%;
+             }
+         }
+         &__subtitle {
+             font-size: 25px;
+         }
+     }
+     .promo {
+         margin-top: 55px;
+         &__title {
+            text-align: center;
+            font-size: 29px;
+         }
+         &__subtitle {
+             display: block;
+             margin: 0 auto;
+             margin-top: 40px;
+             text-align: center;
+             max-width: 215px;
+         }
+         &__checks {
+             margin-top: 30px;
+             text-align: center;
+             list-style-image: none;
+             margin-left: 0px;
+             li {
+                 padding-left: 0;
+             }
+         }
+     }
+     .features {
+         &__wrapper {
+             margin-top: 80px;
+             width: 403px;
+         }
+         &__icon {
+             margin-right: 24px;
+         }
+     }
+     .reasons {
+        padding: 35px 0 80px 0;
+        &__wrapper {
+            margin-top: 80px;
+        }
+     }
+     .screenshot {
+        padding: 80px 0 80px 0;
+     }
+     .prices {
+         display: none;
+     }
+     .reviews {
+        padding: 80px 0 80px 0;
+     }
+     .apps {
+        padding: 80px 0 80px 0;
+         &__links {
+             img {
+                width: 60%;
+                height: 60%;
+             }
+         }
+     }
+     .footer {
+        padding: 40px 0 14px 0;
+        min-height: 150px;
+     }
+     .title_reasons {
+         font-size: 26px;
+     }
+     .title_prices {
+        font-size: 17px;
+    }
+     .button {
+         width: 116px;
+         font-size: 12px;
+     }
+     .button_promo {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        font-size: 11px;
+    }
+    .right {
+        margin-left: 0;
+    }
+ }
+ @media (max-width : 450px) {
+     .header {
+        min-height: 413px;
+         &__logo {
+             img {
+                 height: 40%;
+             }
+         }
+         &__link {
+             display: none;
+         }
+    }
+    .promo {
+        margin-top: 39px;
+        &__checks {
+            li {
+                font-size: 12px;
+            }
+        }
+        &__subtitle {
+            display: none;
+        }
+    }
+    .features {
+        &__descr {
+            margin-top: 12px;
+            text-align: center;
+            padding-right: 0;
+            margin-bottom: 33px;
+        }
+        &__wrapper {
+            width: 223px;
+            margin-top: 60px;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            margin-bottom: 10px;
+            margin-right: 0;
+            img {
+                margin-right: 0;
+                text-align: center;
+            }
+        }
+        &__icons {
+            margin-right: 0;
+        }
+        &__subtitle {
+            text-align: center;
+        }
+    }
+    .reasons {
+        padding: 35px 0 60px 0;
+        &__wrapper {
+            margin-top: 60px;
+        }
+        &__checks {
+            li {
+                font-size: 12px;
+            }
+        }
+    }
+    .screenshot {
+        padding: 60px 0px 60px 0px;
+    }
+    .reviews {
+        padding: 60px 0px 60px 0px;
+        &__container {
+            margin-top: 38px;
+        }
+    }
+    .apps {
+        min-height: 428px;
+        padding: 60px 0px 60px 0px;
+        &__wrapper {
+            margin-top: 60px;
+        }
+    }
+    .footer {
+        padding: 29px 0 14px 0;
+        min-height: 131px;
+        &__descr {
+            margin-top: 23px;
+            font-size: 11px;
+        }
+    }
+    .title {
+        font-size: 25px;
+    }
+    .button {
+        font-size: 11px;
+        height: 25px;
+        width: 111px;
+    }
+    .button_promo {
+        font-size: 10px;
+    }
+    .promo__title {
+        font-size: 25px;
+    }
+    .title__reasons {
+        font-size: 25px;
+    }
+ }
